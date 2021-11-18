@@ -1,0 +1,31 @@
+ul {
+    display: flex;
+  }
+
+li {
+    list-style-type: none;
+    padding: 10px;
+    position: relative;
+}
+
+.large {
+    position: absolute;
+    left: -9999px;
+}
+
+li:hover .large {
+    left: 100px;
+}
+
+.large-image {
+    border-radius: 4px;
+    box-shadow: 1px 1px 3px 3px rgba(127, 127, 127, 0.15);;
+}
+
+li > img {
+    max-width: 40px;
+}  
+
+a:hover{
+    background-color: lightblue;
+}
